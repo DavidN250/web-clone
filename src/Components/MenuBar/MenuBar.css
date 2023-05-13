@@ -1,0 +1,27 @@
+.menu-bar{
+    display: flex;
+    background-color: white;
+    height: 4rem;
+    justify-content: space-between;
+}
+
+.brand{
+    margin: 0 20px;
+}
+.brand > .logo{
+    position: relative;
+    width: 4rem;
+    top: 10px;
+}
+.menu>ul{
+    display: flex;
+    gap: 2rem;
+    font-weight: bold;
+    font-size: 1rem;
+    justify-content: center;
+}
+.menu>ul>li:hover{
+    position: absolute;
+    color: orange;
+    cursor: pointer;
+}

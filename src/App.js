@@ -1,10 +1,12 @@
 import './App.css';
-import MenuBar from './Components/MenuBar/MenuBar';
+import Navbar from './Components/Navbar/Navbar';
+import WelcomeSection from './Components/Welcome/WelcomeSection';
 
 function App() {
   return (
     <div className="App">
-      <MenuBar/>
+      <Navbar/>
+      <WelcomeSection/>
     </div>
   );
 }

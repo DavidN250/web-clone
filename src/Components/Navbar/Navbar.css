@@ -1,0 +1,35 @@
+.nav-bar{
+    display: flex;
+    background-color: white;
+    padding: 1rem;
+    justify-content: space-between;
+}
+
+.brand>img{
+    width: 6rem;
+    height: 3rem;
+}
+
+.menu>ul{
+    display: flex;
+    gap: 2rem;
+}
+
+.menu-item{
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.5rem;
+    padding-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.menu-item:hover{
+    border-bottom: 2px solid skyblue;
+}
+
+.menu-items>img{
+ width: 2rem;
+ height: 2rem;
+ margin-top: 13px;
+ cursor: pointer;
+}

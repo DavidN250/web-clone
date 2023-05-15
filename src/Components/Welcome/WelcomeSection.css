@@ -1,0 +1,88 @@
+.welcome-section{
+    background-color: rgb(82, 180, 180);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.left-w{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-left: 3rem;
+    text-align: left;
+}
+.left-w>img{
+   position: absolute;
+   height: 15rem;
+   left: -8rem;
+}
+.left-w>span{
+    margin-top: 7rem;
+    left: 1rem;
+    font-weight:bolder;
+    font-size: medium;
+}
+
+.left-w>h3 {
+    left: 1rem;
+    top: 10rem;
+    color: rgb(19, 6, 138);
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.left-w>p {
+    left: 1rem;
+    top: 10rem;
+    font-weight: bold;
+    color: rgb(19, 6, 138);
+    font-size: 20px;
+}
+
+.buttons{
+    display: flex;
+    gap: 1rem;
+}
+
+.right-w{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right-w>.back-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30rem;
+}
+.right-w>.fore-image {
+    position: absolute;
+    top: 130px;
+    right: 80px;
+    width: 32rem;
+}
+
+.separator{
+   display: flex;
+   justify-content: space-around;
+   color: white;
+   font-weight: bold;
+   padding: 10px;
+   background-color:rgb(19, 6, 138);
+}
+
+.separator>.sep-item{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.separator>.sep-item>img{
+    width: 30px;
+    height: 30px;
+}

@@ -10,3 +10,22 @@
     margin-top: 12px;
     font-family: 'Times New Roman', Times;
 }
+
+.w-button{
+background: rgb(19,6,138);
+color: white;
+font-size: 20px;
+width: 20%;
+font-weight: bold;
+border-radius: 10px;
+}
+
+.w-button-outlined{
+    background: transparent;
+    color: rgb(19, 6, 138);;
+    font-size: 20px;
+    width: 20%;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 2px solid rgb(19, 6, 138);;
+}

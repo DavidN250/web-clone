@@ -1,5 +1,6 @@
 import './App.css';
 import Navbar from './Components/Navbar/Navbar';
+import Separator from './Components/Welcome/Separator';
 import WelcomeSection from './Components/Welcome/WelcomeSection';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <Navbar/>
       <WelcomeSection/>
+      <Separator/>
     </div>
   );
 }
